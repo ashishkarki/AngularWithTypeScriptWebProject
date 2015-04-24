@@ -186,8 +186,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\dashboard\" />
-    <Folder Include="app\services\" />
-    <Folder Include="app\sitesettings\" />
     <Folder Include="app\usersettings\" />
     <Folder Include="app\users\" />
     <Folder Include="app\widgets\" />
@@ -199,9 +197,14 @@
     <TypeScriptCompile Include="app\app.core.module.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\app.config.ts" />
+    <TypeScriptCompile Include="app\blocks\apiendpoint.config.ts" />
+    <TypeScriptCompile Include="app\blocks\apiendpoint.provider.ts" />
     <TypeScriptCompile Include="app\blocks\logdecorator.config.ts" />
     <TypeScriptCompile Include="app\blogposts\blogposts.route.ts" />
     <TypeScriptCompile Include="app\layout\navigation.controller.ts" />
+    <TypeScriptCompile Include="app\services\sitesettings.service.ts" />
+    <TypeScriptCompile Include="app\services\user.service.ts" />
+    <TypeScriptCompile Include="app\sitesettings\sitesettings.controller.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-mocks.d.ts" />
